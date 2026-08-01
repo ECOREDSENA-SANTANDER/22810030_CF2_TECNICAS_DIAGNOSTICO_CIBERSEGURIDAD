@@ -47,7 +47,7 @@ export default {
           {
             numero: '1.2',
             titulo:
-              'Aplicaciones <i>web</i>, servicios en la nube y criterios de seguridad',
+              'Aplicaciones web, servicios en la nube y criterios de seguridad',
             hash: 't_1_2',
           },
           {
@@ -107,7 +107,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Internet seguro y clasificación de entornos <i>web</i>',
+        titulo: 'Internet seguro y clasificación de entornos web',
         desarrolloContenidos: true,
         subMenu: [
           {

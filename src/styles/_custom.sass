@@ -61,6 +61,92 @@ figcaption
     background-color: $color-adicional-1
 .cajon.color-acento-botones
     background-color: #CFCCEB
+
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: #B6B3E1
+  border-radius: 30px
+  padding-right: 16px
+  padding-left: 60px
+  min-height: 48px
+ 
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
+
+
+  &__icon
+    position: absolute
+    left: 15px
+    top: 50%
+    transform: translateY(-50%)
+    width: 70px
+    max-width: 85px
+    height: auto
+
+    @media screen and (max-width: $bp-min-md)
+      display: none
+
+  &__text
+    margin: 0
+    margin: 0 15px 0 40px
+    white-space: normal
+    word-break: break-word
+
+.tabs-c 
+    border-bottom: 0px
+.tabs-c.color-acento-botones .tabs-c__tab
+    background-color: #ADEAF9
+    border-bottom-color: #010441
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+    background-color: #fff
+    border-bottom-color: $color-acento-botones !important
+    color: $color-sistema-texto !important
+
+.tabs-c.color-acento-botones .tabs-c__tab--active:before
+    border-top-color: $color-acento-botones !important
+    
+.tabs-c.color-acento-botones .tabs-c__tab--active span
+    font-weight: bold !important
+.tabs-c__tab:after
+    background-color: #A00097;
+.tabs-c__header
+  margin-bottom: 0px !important
+
+.slyder-f__btn i 
+    color: $color-acento-botones
+.slyder__btn 
+    background-color: $color-acento-botones
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $white
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+.img-infografica-b__modal
+    background-color: #B6B3E1
+    opacity: 1 !important
+    border-radius: 20px
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+   display: none
+.img-infografica-b.color-primario .img-infografica-b__item__dot:before,
+.img-infografica-b.color-primario .img-infografica-b__item__dot:after
+  background-color: $color-adicional-1 !important
+.img-infografica-b.color-primario .img-infografica-b__item__numero i
+    color: #34CBF0
+.img-infografica-b__modal__contenido div > *
+    color: $color-sistema-texto !important
+.img-infografica-b__modal__btn-cerrar i 
+    color: $color-sistema-texto !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -74,9 +160,27 @@ figcaption
 .bg-fondo
   &-1
     //background-image: url(../assets/curso/bg/3.svg)
+.bg
+  &-primario
+    background-color: $color-primario
+  &-secundario
+    background-color: $color-secundario
+  &-color-acento-contenido
+    background-color: $color-acento-contenido
+  &-color-acento-botones
+    background-color: $color-acento-botones
+
 .bg-color
   &-1
-    background-color: $color-primario
+    background-color: #F9F7F0
+  &-2
+    background-color: #CCDADA
+  &-3
+    background-color: #CFCCEB
+  &-4
+    background-color: #014547
+  &-5
+    background-color: #D6F5FC
 
 
 .br
@@ -84,9 +188,28 @@ figcaption
     border-bottom-right-radius: 5rem
   &-2
     border-bottom-right-radius: 3rem
+  &-3
+    border-bottom-left-radius: 3rem
+  &-4
+    border-bottom-left-radius: 2.5rem
 
+.wcus
+  &-1
+    width: 13%
+    
+.fa-lock-cus
+    content: url('../assets/curso/temas/bg/2.svg')
+    align-self: flex-start !important
+    font-size: 12px
+.text
+  &-1
+    color: $color-sistema-texto !important
+  &-2
+    margin-top: 0.15rem !important;
 
-
+.pcus
+  &-1
+    padding: 1.5rem !important
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -112,6 +235,10 @@ figcaption
       border-bottom-right-radius: 2rem
     &-2
       border-bottom-right-radius: 1rem
+    &-3
+      border-bottom-left-radius: 2rem
+    &-4
+      border-bottom-left-radius: 1rem
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)

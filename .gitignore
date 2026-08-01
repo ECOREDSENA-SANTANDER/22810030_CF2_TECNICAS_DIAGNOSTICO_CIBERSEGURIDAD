@@ -20,3 +20,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 README.md
+src/styles/custom_personal.sass
