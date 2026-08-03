@@ -96,6 +96,9 @@ figcaption
     white-space: normal
     word-break: break-word
 
+    @media screen and (max-width: $bp-min-md)
+      margin: 0 15px 0 20px
+
 .tabs-c 
     border-bottom: 0px
 .tabs-c.color-acento-botones .tabs-c__tab
@@ -147,6 +150,27 @@ figcaption
     color: $color-sistema-texto !important
 .img-infografica-b__modal__btn-cerrar i 
     color: $color-sistema-texto !important
+.acordion__accion__btn--a i, .acordion__accion__btn--b i 
+    color: white;
+.acordion__titulo h3
+  color: $white
+.tarjeta.bg-purple
+  background-color: $color-primario
+.tarjeta.bg-purple.acordion__activo
+  background-color: #CFCCEB
+.tarjeta.bg-purple.acordion__activo .acordion__titulo h3
+  color: $color-sistema-texto
+.acordion__accion__btn--a
+    background-color: $color-acento-botones
+.col.py-3.text-end
+  text-align: left !important
+.pasos-a.color-acento-botones .pasos-a__linea__esquina__linea,
+.pasos-a.color-acento-botones .pasos-a__linea__esquina__linea,
+.pasos-a.color-acento-botones .pasos-a__linea .hor-line
+  border-color: $color-adicional-2 !important
+.pasos-a.color-acento-botones .pasos-a__numero::after
+    border-left-color: $color-adicional-2 !important
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
