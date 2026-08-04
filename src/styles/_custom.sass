@@ -199,6 +199,44 @@ figcaption
     border: 3px solid $color-acento-botones
     background-color: $white
 
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #B6B3E1
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before
+    background-color: #CFCCEB !important
+
+.crd--last
+  &::before
+    background-color: #0F049D !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/

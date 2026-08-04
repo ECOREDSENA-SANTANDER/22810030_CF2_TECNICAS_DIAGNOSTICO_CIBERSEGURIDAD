@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> verificar la comprensión del código seguro, la protección de aplicaciones <i>web</i> y dispositivos <i>IoT</i>, la taxonomía de ataques, el cibercrimen, las amenazas dirigidas a personas, las infraestructuras críticas, el internet seguro, el monitoreo de red y la mitigación de riesgos.',
+        '<b>Objetivo:</b> verificar la comprensión del código seguro, la protección de aplicaciones web y dispositivos <i>IoT</i>, la taxonomía de ataques, el cibercrimen, las amenazas dirigidas a personas, las infraestructuras críticas, el internet seguro, el monitoreo de red y la mitigación de riesgos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -140,7 +140,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué control aporta una capa adicional de protección a las cuentas administrativas de aplicaciones <i>web</i> y servicios en la nube?',
+            '¿Qué control aporta una capa adicional de protección a las cuentas administrativas de aplicaciones web y servicios en la nube?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -535,7 +535,7 @@ export default {
         },
         {
           id: 15,
-          texto: '¿Qué describe correctamente la <i>deep</i> <i>web</i>?',
+          texto: '¿Qué describe correctamente la <i>deep</i> web?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
