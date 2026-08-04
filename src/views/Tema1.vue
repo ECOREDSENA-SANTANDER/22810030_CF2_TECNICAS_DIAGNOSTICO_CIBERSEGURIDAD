@@ -26,7 +26,7 @@
           img(src='@/assets/curso/temas/t1/2.png', alt='')
         .col-sm-12.col-lg-7
           img.wcus-1(src='@/assets/curso/temas/t1/3.svg', alt='').mb-3
-          p.mb-3 NIST publicó el #[i Secure Software Development Framework (SSDF)] versión 1.1 como un conjunto de prácticas de alto nivel orientadas a reducir el riesgo de vulnerabilidades de software. El marco busca integrarse a los ciclos de desarrollo existentes, debido a que muchos modelos tradicionales no abordan la seguridad con suficiente detalle (NIST, 2022).
+          p.mb-3 NIST publicó el #[i Secure Software Development Framework (SSDF)] versión 1.1 como un conjunto de prácticas de alto nivel orientadas a reducir el riesgo de vulnerabilidades de #[i software]. El marco busca integrarse a los ciclos de desarrollo existentes, debido a que muchos modelos tradicionales no abordan la seguridad con suficiente detalle (NIST, 2022).
           p.mb-0 El código seguro corresponde al #[i software] desarrollado mediante prácticas que reducen la posibilidad de errores aprovechables, protegen los datos y facilitan la detección de comportamientos no esperados. Su calidad no depende únicamente de que la aplicación cumpla una función. También debe analizarse cómo procesa entradas, administra sesiones, controla permisos, registra eventos y maneja errores.
       
       .cajon.color-acento-botones.p-4.mb-5(data-aos='fade-right')
@@ -95,7 +95,7 @@
           img(src='@/assets/curso/temas/t1/11.png', alt='')
         .col-sm-12.col-lg-7
           p.mb-3 Las aplicaciones web y los sistemas en la nube forman parte de la operación cotidiana de organizaciones educativas, empresas y emprendimientos. Permiten publicar información, recibir solicitudes, almacenar documentos, administrar procesos y ofrecer servicios a usuarios ubicados en distintos lugares. Esta flexibilidad también amplía la superficie de exposición y exige aplicar criterios de seguridad.
-          p.mb-0 La prevención comienza por comprender la arquitectura. Un sitio web no está compuesto únicamente por páginas visibles. Puede incluir servidor, base de datos, formularios, API, sistema de autenticación, cuentas administrativas, componentes de terceros y servicios cloud. Cada elemento requiere controles y monitoreo.
+          p.mb-0 La prevención comienza por comprender la arquitectura. Un sitio web no está compuesto únicamente por páginas visibles. Puede incluir servidor, base de datos, formularios, #[i API], sistema de autenticación, cuentas administrativas, componentes de terceros y servicios cloud. Cada elemento requiere controles y monitoreo.
       
       p.mb-5(data-aos='fade-right') Una aplicación web es un sistema al que se accede mediante navegador u otro cliente conectado a una red. Puede cumplir funciones informativas, transaccionales o colaborativas. Un portal institucional publica contenidos; una plataforma de matrícula procesa registros; un sistema de comercio electrónico administra pedidos; y un aula virtual facilita interacción formativa.
 
@@ -172,7 +172,7 @@
             p.mb-3.text-white El análisis de código permite identificar debilidades antes o durante el despliegue. Puede desarrollarse mediante revisión manual, análisis automatizado y evaluación de componentes. Cada técnica aporta información diferente.
             p.mb-0.text-white La revisión manual ayuda a comprender decisiones lógicas, flujos de datos y controles de acceso. Su valor reside en la interpretación contextual. El análisis automatizado puede detectar patrones inseguros, errores frecuentes o dependencias vulnerables. Sin embargo, sus resultados requieren validación. Una herramienta puede generar falsos positivos o no comprender completamente la lógica del negocio.
 
-      p.mb-5(data-aos='fade-right') El análisis estático examina el código sin ejecutar la aplicación. Puede identificar prácticas inseguras, secretos expuestos o patrones de error. El análisis dinámico revisa el comportamiento durante la ejecución. Permite analizar cómo responde la aplicación frente a solicitudes, sesiones o entradas. El análisis de composición de software se concentra en bibliotecas y dependencias incorporadas al proyecto. Esta revisión resulta relevante porque una aplicación puede utilizar componentes desarrollados por terceros.
+      p.mb-5(data-aos='fade-right') El análisis estático examina el código sin ejecutar la aplicación. Puede identificar prácticas inseguras, secretos expuestos o patrones de error. El análisis dinámico revisa el comportamiento durante la ejecución. Permite analizar cómo responde la aplicación frente a solicitudes, sesiones o entradas. El análisis de composición de #[i software] se concentra en bibliotecas y dependencias incorporadas al proyecto. Esta revisión resulta relevante porque una aplicación puede utilizar componentes desarrollados por terceros.
 
 
       .bg-color-5.px-4.py-5.mb-5(data-aos='fade-right')

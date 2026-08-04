@@ -222,7 +222,7 @@
       .row.justify-content-center.mb-5.align-items-center.bg-color-6(data-aos='fade-right')
         .col-sm-12.col-lg-7.mx-0.px-0
           .px-4.pcus-1
-            p.mb-3.text-white La mitigación busca reducir la probabilidad de materialización o disminuir el impacto. Puede incluir controles preventivos, detectivos y correctivos. La selección depende del riesgo. Una vulnerabilidad de software puede requerir actualización; una configuración insegura puede necesitar ajustes; un acceso excesivo puede resolverse mediante privilegio mínimo; y una exposición de datos puede exigir restricciones adicionales.
+            p.mb-3.text-white La mitigación busca reducir la probabilidad de materialización o disminuir el impacto. Puede incluir controles preventivos, detectivos y correctivos. La selección depende del riesgo. Una vulnerabilidad de #[i software] puede requerir actualización; una configuración insegura puede necesitar ajustes; un acceso excesivo puede resolverse mediante privilegio mínimo; y una exposición de datos puede exigir restricciones adicionales.
             p.mb-0.text-white El tratamiento debe documentarse. Antes de modificar un sistema se registra el estado inicial. Después se aplica la acción en condiciones controladas. Finalmente, se valida que el cambio reduzca la exposición sin impedir el funcionamiento legítimo.
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
           img(src='@/assets/curso/temas/t5/17.png', alt='')  

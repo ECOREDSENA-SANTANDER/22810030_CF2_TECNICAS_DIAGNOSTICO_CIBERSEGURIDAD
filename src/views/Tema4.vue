@@ -38,7 +38,7 @@
                 figure
                   img(src="@/assets/curso/temas/t4/4.svg", alt="alt").img100
               .col
-                p.mb-0 La expresión #[i clean web] se utiliza en algunos contextos formativos para referirse a la web visible o surface web. Comprende sitios y contenidos que pueden encontrarse mediante motores de búsqueda convencionales. Páginas institucionales, blogs y portales públicos forman parte de este entorno.
+                p.mb-0 La expresión #[i clean web] se utiliza en algunos contextos formativos para referirse a la web visible o #[i surface web]. Comprende sitios y contenidos que pueden encontrarse mediante motores de búsqueda convencionales. Páginas institucionales, blogs y portales públicos forman parte de este entorno.
           
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
@@ -54,7 +54,7 @@
                 figure
                   img(src="@/assets/curso/temas/t4/6.svg", alt="alt").img100
               .col
-                p.mb-0.text-white La #[i dark web] constituye una capa de la #[i deep web] que suele requerir software específico y ofrecer mayores niveles de anonimato. La Oficina de Propiedad Intelectual de la Unión Europea explicó en 2024 que la #[i deep web] incluye sitios detrás de pagos, autenticación o redes internas, mientras que la dark web corresponde a otra capa que normalmente necesita herramientas específicas y ofrece navegación más anónima (European Union Intellectual Property Office [EUIPO], 2024).
+                p.mb-0.text-white La #[i dark web] constituye una capa de la #[i deep web] que suele requerir #[i software] específico y ofrecer mayores niveles de anonimato. La Oficina de Propiedad Intelectual de la Unión Europea explicó en 2024 que la #[i deep web] incluye sitios detrás de pagos, autenticación o redes internas, mientras que la #[i dark web] corresponde a otra capa que normalmente necesita herramientas específicas y ofrece navegación más anónima (European Union Intellectual Property Office [EUIPO], 2024).
       
       p.mb-3(data-aos='fade-right') Europol ha señalado que la #[i dark web] puede utilizarse para promocionar mercados y foros relacionados con actividades criminales. Sin embargo, el enfoque educativo no debe fomentar su acceso. El objetivo consiste en reconocer riesgos, comprender conceptos y desarrollar criterios responsables (Europol, 2024).
       p.mb-5(data-aos='fade-right') Para diferenciar estos entornos, la comparación puede presentarse mediante ventanas modales que permitan revisar sus características, ejemplos legítimos y consideraciones de seguridad.

@@ -28,7 +28,7 @@
           .px-4.pcus-1
             p.mb-3.text-white La transformación digital ha ampliado el número de dispositivos que participan en los procesos organizacionales. Ya no se utilizan únicamente computadores, servidores y teléfonos móviles. En contextos productivos, educativos y administrativos pueden encontrarse sensores de temperatura, cámaras, sistemas de control de acceso, impresoras conectadas, equipos de medición, dispositivos para seguimiento de inventarios y componentes de automatización. Estos elementos forman parte del internet de las cosas y requieren medidas de seguridad acordes con su función.
 
-            p.mb-0.text-white La incorporación de dispositivos conectados aporta beneficios importantes. Un sensor puede advertir cambios ambientales en una unidad productiva; una cámara puede apoyar la vigilancia de instalaciones; y un sistema de control de acceso puede contribuir a registrar ingresos. Sin embargo, cada dispositivo también amplía la superficie de exposición. Si conserva credenciales predeterminadas, utiliza software desactualizado o se conecta a una red sin segmentación, puede convertirse en un punto débil para la organización.
+            p.mb-0.text-white La incorporación de dispositivos conectados aporta beneficios importantes. Un sensor puede advertir cambios ambientales en una unidad productiva; una cámara puede apoyar la vigilancia de instalaciones; y un sistema de control de acceso puede contribuir a registrar ingresos. Sin embargo, cada dispositivo también amplía la superficie de exposición. Si conserva credenciales predeterminadas, utiliza #[i software] desactualizado o se conecta a una red sin segmentación, puede convertirse en un punto débil para la organización.
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
           img(src='@/assets/curso/temas/t2/2.png', alt='')
       
@@ -40,7 +40,7 @@
           p.mb-4 El internet de las cosas, conocido como #[i IoT] por la expresión inglesa #[i Internet of Things], comprende dispositivos físicos que incorporan capacidades de procesamiento, conectividad y, en muchos casos, recopilación o intercambio de datos. Estos dispositivos interactúan con otros sistemas para apoyar actividades de monitoreo, automatización o control.
           .px-4.pcus-1.bg-color-3
             img.wcus-1(src='@/assets/curso/temas/t2/4.svg', alt='').mb-3
-            p.mb-3 Un dispositivo #[i IoT] puede incluir sensores, componentes de procesamiento, software interno, interfaces de administración y mecanismos de conectividad. En algunos casos, también depende de una plataforma en la nube o de una aplicación móvil. Esta arquitectura demuestra que el análisis no debe limitarse al equipo físico. La seguridad involucra el dispositivo, la red, las credenciales, los datos y los servicios asociados.
+            p.mb-3 Un dispositivo #[i IoT] puede incluir sensores, componentes de procesamiento, #[i software] interno, interfaces de administración y mecanismos de conectividad. En algunos casos, también depende de una plataforma en la nube o de una aplicación móvil. Esta arquitectura demuestra que el análisis no debe limitarse al equipo físico. La seguridad involucra el dispositivo, la red, las credenciales, los datos y los servicios asociados.
             p.mb-0 El National Institute of Standards and Technology publicó NISTIR 8259A como una línea base de capacidades de ciberseguridad para dispositivos #[i IoT]. El documento plantea que las capacidades técnicas de estos dispositivos deben apoyar controles destinados a proteger tanto los equipos como sus datos, sistemas y ecosistemas relacionados (National Institute of Standards and Technology [NIST], 2020a).
       
       p.mb-5(data-aos='fade-right') Para orientar el diagnóstico de dispositivos conectados, resulta útil revisar las capacidades de ciberseguridad que pueden aportar información sobre configuración, protección, actualización y estado del dispositivo.
@@ -74,7 +74,7 @@
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t2/8.png', alt='')
 
-        .row.justify-content-center.align-items-center(titulo="Actualización de software")
+        .row.justify-content-center.align-items-center(titulo="Actualización de <i>software</i>")
           .col-sm-12.col-lg-5
             p.mb-0 Facilita la revisión sobre la disponibilidad de actualizaciones y soporte del fabricante.
           .col-sm-12.col-lg-5.d-none.d-lg-block

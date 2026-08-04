@@ -357,7 +357,7 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué propiedad de la seguridad se afecta principalmente en un ataque de denegación de servicio o DoS?',
+            '¿Qué propiedad de la seguridad se afecta principalmente en un ataque de denegación de servicio o <i>DoS</i>?',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [

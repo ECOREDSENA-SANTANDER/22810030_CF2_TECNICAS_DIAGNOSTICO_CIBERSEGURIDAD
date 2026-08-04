@@ -187,11 +187,11 @@
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/2.png', alt='')
         .col-sm-12.col-lg-7
-          p.mb-2 La clasificación cumple una finalidad defensiva. Permite comprender que las amenazas no siempre provienen de una única persona ni siguen un patrón simple. Una campaña puede integrar suplantación, malware, robo de credenciales y extorsión. La organización debe fortalecer sus controles en diferentes capas.
+          p.mb-2 La clasificación cumple una finalidad defensiva. Permite comprender que las amenazas no siempre provienen de una única persona ni siguen un patrón simple. Una campaña puede integrar suplantación, #[i malware], robo de credenciales y extorsión. La organización debe fortalecer sus controles en diferentes capas.
 
           p.mb-2 Los métodos de dispersión son mecanismos mediante los cuales una amenaza alcanza a posibles víctimas. Entre ellos se encuentran mensajes fraudulentos, archivos adjuntos, enlaces engañosos, sitios web comprometidos, componentes desactualizados y credenciales obtenidas de forma indebida.
 
-          p.mb-0 La dispersión aprovecha tanto vulnerabilidades técnicas como decisiones humanas. Un archivo puede instalar software malicioso si el sistema no aplica controles apropiados. Un enlace puede dirigir hacia una página de suplantación. Un servicio expuesto puede facilitar intentos de acceso. Una dependencia desactualizada puede introducir una debilidad en una aplicación.
+          p.mb-0 La dispersión aprovecha tanto vulnerabilidades técnicas como decisiones humanas. Un archivo puede instalar #[i software] malicioso si el sistema no aplica controles apropiados. Un enlace puede dirigir hacia una página de suplantación. Un servicio expuesto puede facilitar intentos de acceso. Una dependencia desactualizada puede introducir una debilidad en una aplicación.
 
 
 
@@ -216,9 +216,9 @@
           img(src='@/assets/curso/temas/t3/19.svg', alt='')
         .col-sm-12.col-lg-7
           img.wcus-1(src='@/assets/curso/temas/t3/20.svg', alt='').mb-3
-          p.mb-3 CISA explica que los ataques de phishing utilizan correos o sitios maliciosos para solicitar información personal aparentando provenir de una organización confiable (CISA, 2021b). El concepto se relaciona con la ingeniería social: el atacante intenta influir en la decisión del usuario.
+          p.mb-3 CISA explica que los ataques de #[i phishing] utilizan correos o sitios maliciosos para solicitar información personal aparentando provenir de una organización confiable (CISA, 2021b). El concepto se relaciona con la ingeniería social: el atacante intenta influir en la decisión del usuario.
 
-          p.mb-3 La inteligencia artificial también puede incrementar la capacidad para crear mensajes más convincentes. El FBI advirtió en 2024 sobre el uso de herramientas de inteligencia artificial por parte de ciberdelincuentes para desarrollar campañas sofisticadas de phishing, ingeniería social y clonación de voz o video (Federal Bureau of Investigation [FBI], 2024).
+          p.mb-3 La inteligencia artificial también puede incrementar la capacidad para crear mensajes más convincentes. El FBI advirtió en 2024 sobre el uso de herramientas de inteligencia artificial por parte de ciberdelincuentes para desarrollar campañas sofisticadas de #[i phishing], ingeniería social y clonación de voz o video (Federal Bureau of Investigation [FBI], 2024).
 
           p.mb-3 Esta evolución refuerza una idea pedagógica: no basta con buscar errores ortográficos o diseños deficientes. Un mensaje fraudulento puede parecer profesional. La verificación debe considerar el canal, la solicitud, la urgencia, el dominio y el procedimiento institucional.
 
