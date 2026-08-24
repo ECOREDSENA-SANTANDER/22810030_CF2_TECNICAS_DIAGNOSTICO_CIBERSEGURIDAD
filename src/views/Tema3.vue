@@ -27,7 +27,7 @@
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/2.png', alt='')
+          img(src='@/assets/curso/temas/t3/2.png')
         .col-sm-12.col-lg-7
           p.mb-3 La ejecución de acciones preventivas y la validación de riesgos requieren comprender cómo pueden desarrollarse los ataques sobre una infraestructura tecnológica. Una vulnerabilidad adquiere mayor significado cuando se analiza en relación con una posible amenaza, el activo expuesto y las consecuencias que podrían producirse. Por esta razón, la clasificación de ataques facilita la interpretación de los hallazgos obtenidos durante el monitoreo, las pruebas de seguridad y la revisión de registros.
           p.mb-0 Una taxonomía permite ordenar conceptos y reconocer patrones. No debe entenderse como una descripción rígida de todos los incidentes posibles, debido a que un ataque real puede integrar diferentes acciones en una misma secuencia. Un actor puede recopilar información pública, identificar servicios expuestos, intentar obtener credenciales y afectar posteriormente la disponibilidad de un sistema. El análisis profesional exige analizar las relaciones entre estas acciones sin asumir que todos los casos siguen exactamente el mismo recorrido.
@@ -36,7 +36,7 @@
 
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/3.png', alt='')
+          img(src='@/assets/curso/temas/t3/3.png')
         .col-sm-12.col-lg-9
           .bg-color-2.p-5
             p.mb-3 El análisis debe diferenciar entre una amenaza, un evento y un ataque confirmado. Una amenaza representa la posibilidad de afectación; un evento corresponde a una actividad identificable; y un ataque implica una acción intencional que requiere evidencia suficiente para su clasificación. Diez intentos fallidos de autenticación en pocos minutos constituyen un evento que debe revisarse. La situación puede relacionarse con una prueba legítima, un error de usuario o un intento de acceso no autorizado. La documentación debe conservar esta diferencia y evitar afirmaciones que no puedan demostrarse.
@@ -66,7 +66,7 @@
                   i.fas.fa-lock-cus-white
                   p.mb-0.text-2 #[b Evidencia que requiere revisión:] registros de red, inventario de activos, alertas y línea base de comportamiento.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/4.png', alt='')
+              img(src='@/assets/curso/temas/t3/4.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7.text-white
@@ -85,7 +85,7 @@
                   i.fas.fa-lock-cus-white
                   p.mb-0.text-2 #[b Evidencia que requiere revisión:] registros de acceso, ubicación, horario, perfil del usuario y cambios realizados.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/5.png', alt='')
+              img(src='@/assets/curso/temas/t3/5.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7.text-white
@@ -104,7 +104,7 @@
                   i.fas.fa-lock-cus-white
                   p.mb-0.text-2 #[b Evidencia que requiere revisión:] consumo de recursos, tráfico, disponibilidad de servicios y registros de eventos.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/6.png', alt='')
+              img(src='@/assets/curso/temas/t3/6.png')
           
       p.mb-0(data-aos='fade-right') Esta clasificación aporta una base para interpretar hallazgos, pero no reemplaza la investigación. Un incremento de tráfico puede responder a una actividad legítima; un acceso fuera de horario puede tener justificación; y un escaneo puede corresponder a una prueba autorizada. El contexto determina la clasificación definitiva.
       
@@ -120,23 +120,23 @@
 
             p.mb-0.text-white INTERPOL señala que el delito digital ha evolucionado desde incidentes aislados hacia una economía clandestina sofisticada que afecta a personas, empresas y organizaciones. Esta transformación exige respuestas coordinadas y capacidad de prevención en diferentes niveles (INTERPOL, 2026).
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
-          img(src='@/assets/curso/temas/t3/7.png', alt='')
+          img(src='@/assets/curso/temas/t3/7.png')
       
-      p.mb-5(data-aos='fade-right') Europol destaca que el ecosistema del cibercrimen continúa cambiando con rapidez. El informe IOCTA 2026 analiza cómo el cifrado, los servicios proxy y la inteligencia artificial amplían determinadas capacidades criminales. También señala la expansión de modelos de crime-as-a-service, mediante los cuales algunos actores pueden contratar servicios especializados sin desarrollar directamente todas las capacidades técnicas (Europol, 2026).
+      p.mb-5(data-aos='fade-right') Europol destaca que el ecosistema del cibercrimen continúa cambiando con rapidez. El informe IOCTA 2026 analiza cómo el cifrado, los servicios #[i proxy] y la inteligencia artificial amplían determinadas capacidades criminales. También señala la expansión de modelos de #[i crime-as-a-service], mediante los cuales algunos actores pueden contratar servicios especializados sin desarrollar directamente todas las capacidades técnicas (Europol, 2026).
       
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-9
           .bg-color-2.p-5
             p.mb-3 El cibercrimen comprende actividades delictivas que utilizan sistemas, redes o servicios digitales como objetivo, medio o escenario. Algunos delitos buscan comprometer infraestructuras; otros utilizan plataformas digitales para ejecutar fraudes, extorsiones o suplantaciones. La tecnología modifica la escala, velocidad y alcance de estas acciones.
-            p.mb-0 El análisis histórico permite reconocer una evolución. Las primeras afectaciones podían concentrarse en acciones experimentales o incidentes limitados. Con el crecimiento de internet, la digitalización de servicios y la expansión de plataformas, aumentó la posibilidad de afectar a usuarios ubicados en diferentes lugares. La incorporación de servicios en la nube, dispositivos conectados y medios digitales amplió tanto las oportunidades legítimas como las superficies de exposición.1
+            p.mb-0 El análisis histórico permite reconocer una evolución. Las primeras afectaciones podían concentrarse en acciones experimentales o incidentes limitados. Con el crecimiento de internet, la digitalización de servicios y la expansión de plataformas, aumentó la posibilidad de afectar a usuarios ubicados en diferentes lugares. La incorporación de servicios en la nube, dispositivos conectados y medios digitales amplió tanto las oportunidades legítimas como las superficies de exposición.
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/8.png', alt='')
+          img(src='@/assets/curso/temas/t3/8.png')
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/10.png', alt='')
+          img(src='@/assets/curso/temas/t3/10.png')
         .col-sm-12.col-lg-7
-          img.wcus-1(src='@/assets/curso/temas/t3/9.svg', alt='').mb-3
+          img.wcus-1(src='@/assets/curso/temas/t3/9.svg').mb-3
           p.mb-3 El aprendizaje no debe idealizar ni dramatizar la figura del ciberdelincuente. La formación profesional integral requiere una postura crítica. Comprender el fenómeno permite diseñar controles, orientar usuarios y fortalecer la respuesta. El propósito no consiste en replicar prácticas ilícitas, sino en identificar patrones de riesgo.
           p.mb-0 La clasificación de ciberdelincuentes puede considerar motivaciones, nivel de organización y recursos utilizados. Para facilitar esta lectura, el siguiente recurso organiza los actores y modelos mencionados en el desarrollo.
 
@@ -151,41 +151,41 @@
           .col-sm-12.col-lg-5
             p.mb-0 Operan con capacidades variables y pueden actuar con diferentes niveles de conocimiento técnico.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t3/11.png', alt='')
+            img(src='@/assets/curso/temas/t3/11.png')
 
         .row.justify-content-center.align-items-center(titulo="Redes organizadas")
           .col-sm-12.col-lg-5
             p.mb-0 Distribuyen tareas entre varios participantes y pueden coordinar acciones de mayor alcance.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t3/12.png', alt='')
+            img(src='@/assets/curso/temas/t3/12.png')
 
         .row.justify-content-center.align-items-center(titulo="Intermediarios")
           .col-sm-12.col-lg-5
             p.mb-0 Facilitan servicios, datos, herramientas o infraestructura para apoyar actividades ilícitas.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t3/13.png', alt='')
+            img(src='@/assets/curso/temas/t3/13.png')
 
         .row.justify-content-center.align-items-center(titulo="Amenazas internas")
           .col-sm-12.col-lg-5
             p.mb-0 Se presentan cuando una persona utiliza indebidamente sus privilegios dentro de una organización.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t3/14.png', alt='')
+            img(src='@/assets/curso/temas/t3/14.png')
 
         .row.justify-content-center.align-items-center(titulo="Motivaciones frecuentes")
           .col-sm-12.col-lg-5
             p.mb-0 Pueden relacionarse con beneficio económico, interrupción de servicios, notoriedad o acceso a información.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t3/15.png', alt='')
+            img(src='@/assets/curso/temas/t3/15.png')
 
         .row.justify-content-center.align-items-center(titulo="Recursos utilizados")
           .col-sm-12.col-lg-5
             p.mb-0 Incluyen credenciales, herramientas, datos, infraestructura digital o servicios contratados a terceros.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t3/16.png', alt='')
+            img(src='@/assets/curso/temas/t3/16.png')
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/2.png', alt='')
+          img(src='@/assets/curso/temas/t3/2.png')
         .col-sm-12.col-lg-7
           p.mb-2 La clasificación cumple una finalidad defensiva. Permite comprender que las amenazas no siempre provienen de una única persona ni siguen un patrón simple. Una campaña puede integrar suplantación, #[i malware], robo de credenciales y extorsión. La organización debe fortalecer sus controles en diferentes capas.
 
@@ -213,9 +213,9 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/19.svg', alt='')
+          img(src='@/assets/curso/temas/t3/19.svg')
         .col-sm-12.col-lg-7
-          img.wcus-1(src='@/assets/curso/temas/t3/20.svg', alt='').mb-3
+          img.wcus-1(src='@/assets/curso/temas/t3/20.svg').mb-3
           p.mb-3 CISA explica que los ataques de #[i phishing] utilizan correos o sitios maliciosos para solicitar información personal aparentando provenir de una organización confiable (CISA, 2021b). El concepto se relaciona con la ingeniería social: el atacante intenta influir en la decisión del usuario.
 
           p.mb-3 La inteligencia artificial también puede incrementar la capacidad para crear mensajes más convincentes. El FBI advirtió en 2024 sobre el uso de herramientas de inteligencia artificial por parte de ciberdelincuentes para desarrollar campañas sofisticadas de #[i phishing], ingeniería social y clonación de voz o video (Federal Bureau of Investigation [FBI], 2024).
@@ -233,35 +233,35 @@
         LineaTiempoC.color-acento-botones
           .row.justify-content-center.mb-0(titulo="Revisar el canal")
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/21.png', alt='')
+              img(src='@/assets/curso/temas/t3/21.png')
             .col-sm-12.col-lg-5
               h5 Revisar el canal
               p.mb-0 Identifique si el mensaje llegó por un medio institucional, personal o no esperado.
 
           .row.justify-content-center.mb-0(titulo="Analizar la solicitud")
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/22.png', alt='')
+              img(src='@/assets/curso/temas/t3/22.png')
             .col-sm-12.col-lg-5
               h5 Analizar la solicitud
               p.mb-0 Determine si pide datos personales, credenciales, pagos, descargas o acciones urgentes.
 
           .row.justify-content-center.mb-0(titulo="Validar el dominio")
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/23.png', alt='')
+              img(src='@/assets/curso/temas/t3/23.png')
             .col-sm-12.col-lg-5
               h5 Validar el dominio
               p.mb-0 Revise si la dirección del sitio o correo corresponde a la entidad legítima.
 
           .row.justify-content-center.mb-0(titulo="Confirmar el procedimiento")
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/24.png', alt='')
+              img(src='@/assets/curso/temas/t3/24.png')
             .col-sm-12.col-lg-5
               h5 Confirmar el procedimiento
               p.mb-0 Contraste la solicitud con los canales oficiales o procedimientos definidos por la organización.
 
           .row.justify-content-center.mb-0(titulo="Reportar la situación")
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t3/25.png', alt='')
+              img(src='@/assets/curso/temas/t3/25.png')
             .col-sm-12.col-lg-5
               h5 Reportar la situación
               p.mb-0 Comunique el caso mediante los canales adecuados cuando existan indicios de suplantación, fraude o riesgo.

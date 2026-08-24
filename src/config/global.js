@@ -218,7 +218,7 @@ export default {
         'contenido no indexado por motores de búsqueda convencionales, como plataformas autenticadas, repositorios privados o sistemas internos.',
     },
     {
-      termino: 'Denegación de servicio —<i>DoS</i>—',
+      termino: 'Denegación de servicio (<i>DoS</i>)',
       significado:
         'ataque orientado a degradar o impedir el acceso legítimo a una aplicación, red o servicio tecnológico.',
     },
@@ -243,7 +243,7 @@ export default {
         'situación que afecta o pone en riesgo sistemas, información, servicios o usuarios y requiere tratamiento documentado.',
     },
     {
-      termino: 'Internet de las cosas —<i>IoT</i>—',
+      termino: 'Internet de las cosas (<i>IoT</i>)',
       significado:
         'ecosistema de dispositivos físicos conectados que recopilan, procesan o intercambian datos.',
     },
@@ -377,12 +377,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '--',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

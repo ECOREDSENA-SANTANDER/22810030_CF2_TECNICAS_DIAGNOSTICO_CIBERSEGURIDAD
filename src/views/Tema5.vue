@@ -10,9 +10,9 @@
       
       .row.justify-content-center.mb-0.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t5/1.png', alt='')
+          img(src='@/assets/curso/temas/t5/1.png')
         .col-sm-12.col-lg-9
-          img.wcus-2(src='@/assets/curso/temas/t5/2.svg', alt='').mb-3.d-none.d-lg-block
+          img.wcus-2(src='@/assets/curso/temas/t5/2.svg').mb-3.d-none.d-lg-block
           p.mb-0 El monitoreo, la mitigación y la validación de riesgos permiten pasar de la identificación de vulnerabilidades a la toma de decisiones sustentada en evidencias. Este tema aborda métodos de seguimiento, herramientas tecnológicas de seguridad, acciones de mitigación y procedimientos para comprobar si los controles aplicados reducen la exposición sin afectar el funcionamiento legítimo de los servicios.
       
       
@@ -33,9 +33,9 @@
       
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t5/4.png', alt='')
+          img(src='@/assets/curso/temas/t5/4.png')
         .col-sm-12.col-lg-7
-          img.wcus-1(src='@/assets/curso/temas/t5/5.svg', alt='').mb-3
+          img.wcus-1(src='@/assets/curso/temas/t5/5.svg').mb-3
           p.mb-3 Una línea base describe la condición habitual o esperada de un activo. Puede incluir aplicaciones instaladas, servicios habilitados, horarios de uso, conexiones permitidas y niveles aproximados de consumo de recursos. La comparación con esta referencia ayuda a detectar comportamientos anómalos.
           p.mb-0 Considérese una plataforma virtual utilizada principalmente durante jornadas académicas. Un aumento de accesos durante la entrega de actividades puede ser legítimo. Sin embargo, múltiples intentos fallidos sobre una cuenta administrativa en un horario inusual requieren revisión. La diferencia no se determina únicamente mediante una alerta automática: exige comprender el contexto.
 
@@ -47,14 +47,14 @@
             p.mb-0 El monitoreo continuo no significa revisar manualmente cada evento en todo momento. Significa establecer una frecuencia suficiente para tomar decisiones basadas en riesgos. Una pequeña organización puede comenzar con procedimientos sencillos: conservar registros esenciales, revisar alertas prioritarias y asignar responsables. La calidad del proceso depende más de su coherencia y continuidad que de la cantidad de herramientas instaladas.
 
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t5/6.svg', alt='')
+          img(src='@/assets/curso/temas/t5/6.svg')
 
 
       Separador
       #t_5_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
         h2 5.2 Herramientas tecnológicas de seguridad
       
-      img.d-none.d-lg-block(src='@/assets/curso/temas/t5/7.png', alt='')
+      img.d-none.d-lg-block(src='@/assets/curso/temas/t5/7.png')
       
       p.mb-3 Las herramientas apoyan la prevención, detección, análisis y respuesta. Su selección debe corresponder con el tipo de activo, el riesgo identificado y la capacidad de la organización. Una solución avanzada puede resultar poco útil si no existe personal encargado de revisar sus alertas. Una herramienta básica puede aportar valor cuando se integra a un procedimiento claro.
       p.mb-5 Las herramientas de seguridad pueden organizarse según su finalidad, aplicación posible y criterio de selección. Para facilitar su consulta, la siguiente información se presenta como un recurso interactivo.
@@ -79,7 +79,7 @@
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Criterio de selección:] debe facilitar actualización, clasificación y asignación de responsables.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/8.png', alt='')
+              img(src='@/assets/curso/temas/t5/8.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -93,9 +93,9 @@
                   p.mb-0.text-2 #[b Aplicación posible:] revisar versiones, servicios y configuraciones en entornos autorizados.
                 li.d-flex
                   i.fas.fa-lock-cus
-                  p.mb-0.text-2 #[b Criterio de selección:] debe utilizarse con alcance definido y aprobado.
+                  p.mb-0.text-2 #[b Criterio de selección:] debe utilizarse con alcance definido y contrastar los hallazgos.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/9.png', alt='')
+              img(src='@/assets/curso/temas/t5/9.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -111,7 +111,7 @@
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Criterio de selección:] requiere actualización, monitoreo y revisión de alertas.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/10.png', alt='')
+              img(src='@/assets/curso/temas/t5/10.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -125,9 +125,9 @@
                   p.mb-0.text-2 #[b Aplicación posible:] limitar accesos y reducir exposición innecesaria.
                 li.d-flex
                   i.fas.fa-lock-cus
-                  p.mb-0.text-2 #[b Criterio de selección:] las reglas deben documentarse y validarse.
+                  p.mb-0.text-2 #[b Criterio de selección:] las reglas deben documentarse y validarse periódicamente.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/11.png', alt='')
+              img(src='@/assets/curso/temas/t5/11.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -143,7 +143,7 @@
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Criterio de selección:] debe ajustarse para equilibrar protección y operación legítima.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/12.png', alt='')
+              img(src='@/assets/curso/temas/t5/12.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -151,15 +151,15 @@
               ul.lista-ul--color.mb-0.mcus-1
                 li.d-flex
                   i.fas.fa-lock-cus
-                  p.mb-0.text-2 #[b Finalidad principal:] comportamientos y facilitar respuesta en equipos finales.
+                  p.mb-0.text-2 #[b Finalidad principal:] analizar comportamientos y facilitar respuesta en equipos finales.
                 li.d-flex
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Aplicación posible:] analizar actividad inusual en computadores y servidores.
                 li.d-flex
                   i.fas.fa-lock-cus
-                  p.mb-0.text-2 #[b Criterio de selección:] requiere responsables para investigar alertas.
+                  p.mb-0.text-2 #[b Criterio de selección:] requiere responsables para investigar alertas y documentar acciones.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/13.png', alt='')
+              img(src='@/assets/curso/temas/t5/13.png')
           
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -175,7 +175,7 @@
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Criterio de selección:] debe priorizar información útil y proteger los registros.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/14.png', alt='')
+              img(src='@/assets/curso/temas/t5/14.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -191,7 +191,7 @@
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Criterio de selección:] la automatización debe probarse en condiciones controladas.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/15.png', alt='')
+              img(src='@/assets/curso/temas/t5/15.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
@@ -207,7 +207,7 @@
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Criterio de selección:] deben realizarse pruebas periódicas de recuperación.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t5/16.png', alt='')
+              img(src='@/assets/curso/temas/t5/16.png')
 
 
 
@@ -225,14 +225,14 @@
             p.mb-3.text-white La mitigación busca reducir la probabilidad de materialización o disminuir el impacto. Puede incluir controles preventivos, detectivos y correctivos. La selección depende del riesgo. Una vulnerabilidad de #[i software] puede requerir actualización; una configuración insegura puede necesitar ajustes; un acceso excesivo puede resolverse mediante privilegio mínimo; y una exposición de datos puede exigir restricciones adicionales.
             p.mb-0.text-white El tratamiento debe documentarse. Antes de modificar un sistema se registra el estado inicial. Después se aplica la acción en condiciones controladas. Finalmente, se valida que el cambio reduzca la exposición sin impedir el funcionamiento legítimo.
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
-          img(src='@/assets/curso/temas/t5/17.png', alt='')  
+          img(src='@/assets/curso/temas/t5/17.png')  
 
 
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t5/18.svg', alt='')
+          img(src='@/assets/curso/temas/t5/18.svg')
         .col-sm-12.col-lg-7
-          img.wcus-1(src='@/assets/curso/temas/t5/19.svg', alt='').mb-3
+          img.wcus-1(src='@/assets/curso/temas/t5/19.svg').mb-3
           p.mb-3 La validación puede incluir una nueva revisión de configuración, una prueba autorizada, el análisis de registros o una comparación antes y después. Cuando se corrige una debilidad en una aplicación, conviene realizar una prueba de regresión de seguridad para comprobar que la modificación no introdujo efectos no previstos.
           p.mb-3 NIST SP 800-61 Rev. 3 integra la respuesta a incidentes con la gestión de riesgos de ciberseguridad. El documento destaca la preparación, la reducción del número e impacto de incidentes y la mejora de las actividades de detección, respuesta y recuperación (NIST, 2025). Esta visión resulta aplicable a la mitigación: el aprendizaje no concluye cuando se ejecuta una acción; se completa cuando el resultado se verifica y se incorpora a la mejora continua.
           .bg-color-5.p-4
@@ -319,6 +319,9 @@
                     li.d-flex
                       i.fas.fa-lock-cus
                       p.mb-0 #[b Pregunta orientadora:] ¿qué evidencia sustenta la conclusión?
+                    li.d-flex
+                      i.fas.fa-lock-cus
+                      p.mb-0 #[b Evidencia:] informe técnico actualizado.
                 .col-sm-12.col-lg-3.d-none.d-lg-block
                   img(src='@/assets/curso/temas/t5/24.svg')
 

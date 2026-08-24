@@ -535,7 +535,7 @@ export default {
         },
         {
           id: 15,
-          texto: '¿Qué describe correctamente la <i>deep</i> web?',
+          texto: '¿Qué describe correctamente la <i>deep web</i>?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [

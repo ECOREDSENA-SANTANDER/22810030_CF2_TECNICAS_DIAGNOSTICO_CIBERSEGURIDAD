@@ -30,16 +30,16 @@
 
             p.mb-0.text-white La incorporación de dispositivos conectados aporta beneficios importantes. Un sensor puede advertir cambios ambientales en una unidad productiva; una cámara puede apoyar la vigilancia de instalaciones; y un sistema de control de acceso puede contribuir a registrar ingresos. Sin embargo, cada dispositivo también amplía la superficie de exposición. Si conserva credenciales predeterminadas, utiliza #[i software] desactualizado o se conecta a una red sin segmentación, puede convertirse en un punto débil para la organización.
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
-          img(src='@/assets/curso/temas/t2/2.png', alt='')
+          img(src='@/assets/curso/temas/t2/2.png')
       
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/3.svg', alt='')
+          img(src='@/assets/curso/temas/t2/3.svg')
         .col-sm-12.col-lg-7
           p.mb-4 El internet de las cosas, conocido como #[i IoT] por la expresión inglesa #[i Internet of Things], comprende dispositivos físicos que incorporan capacidades de procesamiento, conectividad y, en muchos casos, recopilación o intercambio de datos. Estos dispositivos interactúan con otros sistemas para apoyar actividades de monitoreo, automatización o control.
           .px-4.pcus-1.bg-color-3
-            img.wcus-1(src='@/assets/curso/temas/t2/4.svg', alt='').mb-3
+            img.wcus-1(src='@/assets/curso/temas/t2/4.svg').mb-3
             p.mb-3 Un dispositivo #[i IoT] puede incluir sensores, componentes de procesamiento, #[i software] interno, interfaces de administración y mecanismos de conectividad. En algunos casos, también depende de una plataforma en la nube o de una aplicación móvil. Esta arquitectura demuestra que el análisis no debe limitarse al equipo físico. La seguridad involucra el dispositivo, la red, las credenciales, los datos y los servicios asociados.
             p.mb-0 El National Institute of Standards and Technology publicó NISTIR 8259A como una línea base de capacidades de ciberseguridad para dispositivos #[i IoT]. El documento plantea que las capacidades técnicas de estos dispositivos deben apoyar controles destinados a proteger tanto los equipos como sus datos, sistemas y ecosistemas relacionados (National Institute of Standards and Technology [NIST], 2020a).
       
@@ -54,37 +54,37 @@
           .col-sm-12.col-lg-5
             p.mb-0 Permite reconocer si el dispositivo puede identificarse de forma única dentro de la infraestructura.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t2/5.png', alt='')
+            img(src='@/assets/curso/temas/t2/5.png')
 
         .row.justify-content-center.align-items-center(titulo="Configuración de seguridad")
           .col-sm-12.col-lg-5
             p.mb-0 Ayuda a determinar si las configuraciones pueden modificarse según las necesidades de protección.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t2/6.png', alt='')
+            img(src='@/assets/curso/temas/t2/6.png')
 
         .row.justify-content-center.align-items-center(titulo="Protección de datos")
           .col-sm-12.col-lg-5
             p.mb-0 Orienta la revisión de los mecanismos utilizados para proteger la información que recopila, procesa o transmite el dispositivo.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t2/7.png', alt='')
+            img(src='@/assets/curso/temas/t2/7.png')
 
         .row.justify-content-center.align-items-center(titulo="Control de acceso lógico")
           .col-sm-12.col-lg-5
             p.mb-0 Permite analizar qué interfaces se encuentran habilitadas y quién puede acceder a ellas.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t2/8.png', alt='')
+            img(src='@/assets/curso/temas/t2/8.png')
 
         .row.justify-content-center.align-items-center(titulo="Actualización de <i>software</i>")
           .col-sm-12.col-lg-5
             p.mb-0 Facilita la revisión sobre la disponibilidad de actualizaciones y soporte del fabricante.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t2/9.png', alt='')
+            img(src='@/assets/curso/temas/t2/9.png')
 
         .row.justify-content-center.align-items-center(titulo="Estado de ciberseguridad")
           .col-sm-12.col-lg-5
             p.mb-0 Permite identificar cómo se detectan cambios, comportamientos anómalos o condiciones que requieren revisión.
           .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t2/10.png', alt='')
+            img(src='@/assets/curso/temas/t2/10.png')
       
       p.mb-0(data-aos='fade-right') Estas capacidades permiten formular preguntas útiles durante el diagnóstico: ¿el dispositivo puede identificarse de forma única?, ¿se pueden modificar sus configuraciones de seguridad?, ¿recibe actualizaciones?, ¿qué interfaces se encuentran habilitadas?, ¿cómo se detectan cambios o comportamientos anómalos?
 
@@ -109,7 +109,7 @@
       
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Capacidades de ciberseguridad en dispositivos #[i IoT]
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Vulnerabilidades frecuentes en dispositivos #[i IoT]
 
       
       .row.justify-content-center.mb-5(data-aos='fade-right')
@@ -179,7 +179,7 @@
                   i.fas.fa-lock-cus
                   p.mb-0.text-2 #[b Evidencia para validar:] diagrama de red y validación de reglas de comunicación.
             div(x="48.3%" y="79%" )
-              h5 Validar datos de entrada
+              h5 Transmisión de datos sin controles adecuados
               ul.lista-ul--color.mb-0.mcus-1
                 li.d-flex
                   i.fas.fa-lock-cus
@@ -199,9 +199,9 @@
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/13.png', alt='')
+          img(src='@/assets/curso/temas/t2/13.png')
         .col-sm-12.col-lg-7
-          img.wcus-1(src='@/assets/curso/temas/t2/14.svg', alt='').mb-3
+          img.wcus-1(src='@/assets/curso/temas/t2/14.svg').mb-3
           p.mb-3 Algunas infraestructuras sostienen servicios cuya interrupción puede generar impactos amplios sobre la sociedad, la economía o la seguridad. La protección de estos entornos exige una mirada que combine prevención, monitoreo, respuesta y continuidad.
           p.mb-0 El Decreto 338 de 2022 estableció lineamientos generales para fortalecer en Colombia la gobernanza de la seguridad digital, la identificación de infraestructuras críticas cibernéticas y servicios esenciales, la gestión de riesgos y la respuesta a incidentes. Este enfoque reconoce que la seguridad digital requiere coordinación entre actores y capacidades institucionales (Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC], 2022).
 
@@ -214,7 +214,7 @@
             p.mb-0 La mitigación comienza con la identificación de activos críticos y dependencias. Posteriormente, se analizan vulnerabilidades, amenazas, controles y procedimientos de continuidad. La organización debe establecer responsables, priorizar acciones y conservar documentación.
 
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/15.svg', alt='')
+          img(src='@/assets/curso/temas/t2/15.svg')
 
 
       p.mb-3(data-aos='fade-right') Entre las medidas pertinentes se encuentran segmentación, control de accesos, actualizaciones, monitoreo, respaldos, procedimientos de respuesta y pruebas de recuperación. La selección depende del entorno. Un sistema crítico requiere controles proporcionales a su función y validaciones periódicas.

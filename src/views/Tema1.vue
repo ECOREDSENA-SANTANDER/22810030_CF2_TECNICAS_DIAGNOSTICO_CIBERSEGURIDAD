@@ -23,9 +23,9 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/2.png', alt='')
+          img(src='@/assets/curso/temas/t1/2.png')
         .col-sm-12.col-lg-7
-          img.wcus-1(src='@/assets/curso/temas/t1/3.svg', alt='').mb-3
+          img.wcus-1(src='@/assets/curso/temas/t1/3.svg').mb-3
           p.mb-3 NIST publicó el #[i Secure Software Development Framework (SSDF)] versión 1.1 como un conjunto de prácticas de alto nivel orientadas a reducir el riesgo de vulnerabilidades de #[i software]. El marco busca integrarse a los ciclos de desarrollo existentes, debido a que muchos modelos tradicionales no abordan la seguridad con suficiente detalle (NIST, 2022).
           p.mb-0 El código seguro corresponde al #[i software] desarrollado mediante prácticas que reducen la posibilidad de errores aprovechables, protegen los datos y facilitan la detección de comportamientos no esperados. Su calidad no depende únicamente de que la aplicación cumpla una función. También debe analizarse cómo procesa entradas, administra sesiones, controla permisos, registra eventos y maneja errores.
       
@@ -38,7 +38,7 @@
 
           p.mb-0 La prevención de vulnerabilidades requiere integrar la seguridad en las diferentes etapas del ciclo de desarrollo. Para facilitar su comprensión, el siguiente recurso presenta los momentos principales en los que pueden incorporarse acciones preventivas.
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/4.png', alt='')
+          img(src='@/assets/curso/temas/t1/4.png')
 
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
             img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -48,31 +48,31 @@
           .py-3.py-md-4(titulo="Planeación").bg-color-1
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/5.png', alt='')
+                img(src='@/assets/curso/temas/t1/5.png')
               .col-sm-12.col-lg-5.pcus-1
                 p.mb-0 Se identifican requisitos y riesgos antes de iniciar el desarrollo de la aplicación.
           .py-3.py-md-4(titulo="Diseño").bg-color-1
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/6.png', alt='')
+                img(src='@/assets/curso/temas/t1/6.png')
               .col-sm-12.col-lg-5.pcus-1
                 p.mb-0 Se definen controles, flujos y criterios de seguridad acordes con el servicio.  
           .py-3.py-md-4(titulo="Construcción").bg-color-1
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/7.png', alt='')
+                img(src='@/assets/curso/temas/t1/7.png')
               .col-sm-12.col-lg-5.pcus-1
                 p.mb-0 Se aplican prácticas de codificación segura y control de dependencias.   
           .py-3.py-md-4(titulo="Pruebas").bg-color-1
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/8.png', alt='')
+                img(src='@/assets/curso/temas/t1/8.png')
               .col-sm-12.col-lg-5.pcus-1
                 p.mb-0 Se verifican comportamientos, entradas, permisos y posibles errores.   
           .py-3.py-md-4(titulo="Despliegue y operación").bg-color-1
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/9.png', alt='')
+                img(src='@/assets/curso/temas/t1/9.png')
               .col-sm-12.col-lg-5.pcus-1
                 p.mb-0 Se revisan configuraciones, se monitorean eventos y se gestionan actualizaciones.   
 
@@ -92,10 +92,10 @@
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/11.png', alt='')
+          img(src='@/assets/curso/temas/t1/11.png')
         .col-sm-12.col-lg-7
           p.mb-3 Las aplicaciones web y los sistemas en la nube forman parte de la operación cotidiana de organizaciones educativas, empresas y emprendimientos. Permiten publicar información, recibir solicitudes, almacenar documentos, administrar procesos y ofrecer servicios a usuarios ubicados en distintos lugares. Esta flexibilidad también amplía la superficie de exposición y exige aplicar criterios de seguridad.
-          p.mb-0 La prevención comienza por comprender la arquitectura. Un sitio web no está compuesto únicamente por páginas visibles. Puede incluir servidor, base de datos, formularios, #[i API], sistema de autenticación, cuentas administrativas, componentes de terceros y servicios cloud. Cada elemento requiere controles y monitoreo.
+          p.mb-0 La prevención comienza por comprender la arquitectura. Un sitio web no está compuesto únicamente por páginas visibles. Puede incluir servidor, base de datos, formularios, #[i API], sistema de autenticación, cuentas administrativas, componentes de terceros y servicios #[i cloud]. Cada elemento requiere controles y monitoreo.
       
       p.mb-5(data-aos='fade-right') Una aplicación web es un sistema al que se accede mediante navegador u otro cliente conectado a una red. Puede cumplir funciones informativas, transaccionales o colaborativas. Un portal institucional publica contenidos; una plataforma de matrícula procesa registros; un sistema de comercio electrónico administra pedidos; y un aula virtual facilita interacción formativa.
 
@@ -108,7 +108,7 @@
 
             p.mb-0 La seguridad requiere aplicar criterios coherentes con el servicio. El siguiente recurso organiza los principales criterios que deben considerarse para proteger aplicaciones web y servicios en la nube.
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/12.png', alt='')
+          img(src='@/assets/curso/temas/t1/12.png')
       
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -116,41 +116,41 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/13.png', alt='')
+          img(src='@/assets/curso/temas/t1/13.png')
         .col-sm-12.col-lg-9
           SlyderF.mb-0.circl-arrow(columnas="col-md-6 col-xl-4")
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t1/14.svg', alt='')
+                    img(src='@/assets/curso/temas/t1/14.svg')
                 .bg-color-acento-botones.mb-4.py-1 
                   p.mb-0.text-center.fw-bold.text-white Gestión de identidades
                 p.mb-0.text-center Permite limitar permisos y controlar el acceso a funciones sensibles.
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t1/15.svg', alt='')
+                    img(src='@/assets/curso/temas/t1/15.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Configuración segura
                 p.mb-0.text-center Reduce condiciones de exposición generadas por ajustes predeterminados o innecesarios.
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t1/16.svg', alt='')
+                    img(src='@/assets/curso/temas/t1/16.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Actualización de componentes
                 p.mb-0.text-center Disminuye riesgos asociados con vulnerabilidades divulgadas.
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t1/17.svg', alt='')
+                    img(src='@/assets/curso/temas/t1/17.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Protección de la información
                 p.mb-0.text-center Orienta el cuidado de los datos durante su transmisión y almacenamiento.
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t1/18.svg', alt='')
+                    img(src='@/assets/curso/temas/t1/18.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Registros y copias de respaldo
                 p.mb-0.text-center Facilita la revisión de eventos y la recuperación ante una afectación.
@@ -165,10 +165,10 @@
       
       .row.justify-content-center.mb-5.align-items-center.bg-color-4(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
-          img(src='@/assets/curso/temas/t1/19.png', alt='')
+          img(src='@/assets/curso/temas/t1/19.png')
         .col-sm-12.col-lg-7.mx-0.px-0
           .px-4.pcus-1
-            img.wcus-1(src='@/assets/curso/temas/t1/20.svg', alt='').mb-3
+            img.wcus-1(src='@/assets/curso/temas/t1/20.svg').mb-3
             p.mb-3.text-white El análisis de código permite identificar debilidades antes o durante el despliegue. Puede desarrollarse mediante revisión manual, análisis automatizado y evaluación de componentes. Cada técnica aporta información diferente.
             p.mb-0.text-white La revisión manual ayuda a comprender decisiones lógicas, flujos de datos y controles de acceso. Su valor reside en la interpretación contextual. El análisis automatizado puede detectar patrones inseguros, errores frecuentes o dependencias vulnerables. Sin embargo, sus resultados requieren validación. Una herramienta puede generar falsos positivos o no comprender completamente la lógica del negocio.
 
@@ -177,7 +177,7 @@
 
       .bg-color-5.px-4.py-5.mb-5(data-aos='fade-right')
         p.mb-3 La revisión de código y las pruebas de seguridad deben generar documentación útil. Un hallazgo debe incluir el componente afectado, la descripción de la debilidad, la evidencia, el impacto potencial, la prioridad y la recomendación. Esta estructura evita expresiones genéricas como “la aplicación es insegura”.
-        p.mb-0 Las prácticas de desarrollo seguro deben relacionarse con acciones preventivas y evidencias verificables. Para presentar esta relación de forma más clara, la información se organiza en una infografía de ventanas modales.1
+        p.mb-0 Las prácticas de desarrollo seguro deben relacionarse con acciones preventivas y evidencias verificables. Para presentar esta relación de forma más clara, la información se organiza en una infografía de ventanas modales.
 
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -256,9 +256,9 @@
           .bg-color-2.px-5.py-4.mb-3
             p.mb-3 El monitoreo permite identificar eventos, cambios y comportamientos relevantes. Puede incluir registros de acceso, alertas, consumo de recursos, modificaciones administrativas y eventos de seguridad. La finalidad no consiste en acumular datos sin criterio, sino en obtener visibilidad útil.
             p.mb-0 Una metodología básica establece qué se debe monitorear, con qué frecuencia, quién revisa las alertas y cómo se documentan los resultados. La ausencia de responsables convierte el monitoreo en una actividad incompleta. Una alerta no gestionada aporta poca protección.
-          p.mb-0 Las herramientas dependen del entorno. Un servidor puede generar registros de accesos y errores. Una plataforma cloud puede ofrecer paneles de actividad. Una aplicación web puede conservar eventos de autenticación. Un sistema de protección puede detectar comportamientos anómalos. La selección debe responder al riesgo y a la capacidad institucional.
+          p.mb-0 Las herramientas dependen del entorno. Un servidor puede generar registros de accesos y errores. Una plataforma #[i cloud] puede ofrecer paneles de actividad. Una aplicación web puede conservar eventos de autenticación. Un sistema de protección puede detectar comportamientos anómalos. La selección debe responder al riesgo y a la capacidad institucional.
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/22.png', alt='')
+          img(src='@/assets/curso/temas/t1/22.png')
       .cajon.color-acento-botones.p-4.mb-0(data-aos='fade-right')
         p.mb-0 En formación virtual, un laboratorio puede incluir registros simulados. El aprendiz identifica intentos fallidos, cambios de permisos y accesos inusuales. Posteriormente, clasifica los eventos y determina cuáles requieren revisión. Esta práctica desarrolla capacidad analítica sin afectar sistemas reales.
   </template>

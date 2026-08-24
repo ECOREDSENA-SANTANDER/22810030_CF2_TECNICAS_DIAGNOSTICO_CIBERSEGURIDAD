@@ -10,12 +10,12 @@
       .row.justify-content-center.mb-0.align-items-center.bg-color-6(data-aos='fade-right')
         .col-sm-12.col-lg-7.mx-0.px-0
           .px-4.pcus-1
-            img.wcus-1.mb-4(src='@/assets/curso/temas/t4/2.svg', alt='').mb-3
+            img.wcus-1.mb-4(src='@/assets/curso/temas/t4/2.svg').mb-3
             p.mb-3.text-white El uso seguro de internet requiere comprender que no todo el contenido digital se encuentra organizado o accesible de la misma manera. La clasificación entre web visible, #[i deep web] y #[i dark web] facilita orientar prácticas de búsqueda, navegación y gestión de riesgos.
             p.mb-0.text-white El análisis debe evitar simplificaciones. La #[i deep web] no equivale necesariamente a actividades ilícitas. Muchos contenidos legítimos no aparecen en los motores de búsqueda porque requieren autenticación o pertenecen a sistemas internos. La #[i dark web] tampoco debe abordarse desde la curiosidad operativa; su estudio tiene una finalidad conceptual y preventiva.
 
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
-          img(src='@/assets/curso/temas/t4/1.png', alt='')
+          img(src='@/assets/curso/temas/t4/1.png')
       
       
       
@@ -30,13 +30,13 @@
         .col-sm-12.col-lg-9.position-relative
           .avatar
             figure
-              img(src="@/assets/curso/temas/t4/3.svg", alt="alt").img250
+              img(src="@/assets/curso/temas/t4/3.svg").img250
           
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t4/4.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t4/4.svg").img100
               .col
                 p.mb-0 La expresión #[i clean web] se utiliza en algunos contextos formativos para referirse a la web visible o #[i surface web]. Comprende sitios y contenidos que pueden encontrarse mediante motores de búsqueda convencionales. Páginas institucionales, blogs y portales públicos forman parte de este entorno.
           
@@ -44,7 +44,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t4/5.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t4/5.svg").img100
               .col
                 p.mb-0 La #[i deep web] comprende contenidos que no se encuentran indexados por los motores de búsqueda habituales, pero que pueden ser legítimos y accesibles mediante permisos. Entre ellos se encuentran plataformas con autenticación, intranets, bases de datos internas y repositorios restringidos.
           
@@ -52,7 +52,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t4/6.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t4/6.svg").img100
               .col
                 p.mb-0.text-white La #[i dark web] constituye una capa de la #[i deep web] que suele requerir #[i software] específico y ofrecer mayores niveles de anonimato. La Oficina de Propiedad Intelectual de la Unión Europea explicó en 2024 que la #[i deep web] incluye sitios detrás de pagos, autenticación o redes internas, mientras que la #[i dark web] corresponde a otra capa que normalmente necesita herramientas específicas y ofrece navegación más anónima (European Union Intellectual Property Office [EUIPO], 2024).
       
@@ -79,7 +79,7 @@
                   i.fas.fa-lock-cus-white
                   p.mb-0.text-2 #[b Consideración de seguridad:] verificar autenticidad, dominio y tratamiento de datos.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t4/7.png', alt='')
+              img(src='@/assets/curso/temas/t4/7.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7.text-white
@@ -95,7 +95,7 @@
                   i.fas.fa-lock-cus-white
                   p.mb-0.text-2 #[b Consideración de seguridad:] proteger credenciales, permisos y privacidad.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t4/8.png', alt='')
+              img(src='@/assets/curso/temas/t4/8.png')
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7.text-white
@@ -111,7 +111,7 @@
                   i.fas.fa-lock-cus-white
                   p.mb-0.text-2 #[b Consideración de seguridad:] no promover navegación exploratoria; aplicar criterios legales, éticos y de seguridad.
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t4/9.png', alt='')
+              img(src='@/assets/curso/temas/t4/9.png')
 
 
 
@@ -145,13 +145,13 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t4/16.png', alt='')
+          img(src='@/assets/curso/temas/t4/16.png')
         .col-sm-12.col-lg-9
           SlyderF.mb-0.circl-arrow(columnas="col-md-6 col-xl-4")
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t4/11.svg', alt='')
+                    img(src='@/assets/curso/temas/t4/11.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Verificar el dominio
                 p.mb-0.text-center Revise si la dirección corresponde a una entidad, fabricante o fuente institucional confiable.
@@ -159,7 +159,7 @@
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t4/12.svg', alt='')
+                    img(src='@/assets/curso/temas/t4/12.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Revisar la fuente
                 p.mb-0.text-center Identifique quién publica la información y si cuenta con respaldo técnico o institucional.
@@ -167,7 +167,7 @@
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t4/13.svg', alt='')
+                    img(src='@/assets/curso/temas/t4/13.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Confirmar la actualidad
                 p.mb-0.text-center Analice si la información está vigente y corresponde al contexto de la consulta.
@@ -175,7 +175,7 @@
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t4/14.svg', alt='')
+                    img(src='@/assets/curso/temas/t4/14.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Reconocer la finalidad
                 p.mb-0.text-center Determine si el contenido informa, promociona, solicita datos o intenta dirigir una acción.
@@ -183,7 +183,7 @@
               .tarjeta.bg-color-3.p-4.hcard-1
                 .row.justify-content-center.mb-4
                   .col-7
-                    img(src='@/assets/curso/temas/t4/15.svg', alt='')
+                    img(src='@/assets/curso/temas/t4/15.svg')
                 .bg-color-acento-botones.mb-4.py-1
                   p.mb-0.text-center.fw-bold.text-white Priorizar fuentes oficiales
                 p.mb-0.text-center Consulte documentación técnica, bases reconocidas, repositorios normativos o fuentes académicas.
@@ -197,9 +197,9 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-6.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t4/17.png', alt='')
+          img(src='@/assets/curso/temas/t4/17.png')
         .col-sm-12.col-lg-6
-          img.wcus-1(src='@/assets/curso/temas/t4/18.svg', alt='').mb-3
+          img.wcus-1(src='@/assets/curso/temas/t4/18.svg').mb-3
           p.mb-3 El término “buscadores especiales” no debe interpretarse como una invitación a explorar entornos de riesgo. La formación se concentra en herramientas legítimas para consultar información verificable: repositorios normativos, bases de vulnerabilidades, documentación oficial y fuentes académicas.
           p.mb-0 Una pregunta orientadora resulta útil: ¿la fuente consultada permite verificar la información sin exponer al usuario ni promover prácticas indebidas? La respuesta debe guiar el proceso. Un diagnóstico responsable utiliza fuentes confiables, documenta la consulta y protege los datos.
 
