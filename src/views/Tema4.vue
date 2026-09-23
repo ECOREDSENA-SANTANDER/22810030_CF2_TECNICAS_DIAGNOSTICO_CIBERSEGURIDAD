@@ -61,7 +61,7 @@
       
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Clasificación general de ataques
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Entornos web y criterios de seguridad
 
       .tarjeta.bg-fondo-1.p-5.mb-5(data-aos='fade-right')
         SlyderA(tipo="b")
