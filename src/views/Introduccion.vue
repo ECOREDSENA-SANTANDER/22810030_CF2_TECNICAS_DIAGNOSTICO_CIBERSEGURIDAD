@@ -22,6 +22,10 @@
 
     .cajon.color-acento-botones.p-4.mb-4
       p.mb-0 El componente también fortalece una postura ética. Las pruebas de seguridad, el monitoreo y la validación deben realizarse únicamente sobre sistemas autorizados o entornos de laboratorio. El conocimiento adquirido se orienta a proteger activos, reducir riesgos y mejorar procesos. La formación profesional integral exige utilizar la tecnología con responsabilidad, respetar la privacidad de las personas y comunicar los hallazgos mediante canales adecuados.
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/qShegNrPJC4?si=ABdCBSitwCod8B23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 </template>
 
 <script>
