@@ -131,7 +131,7 @@
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
-              h4 #[i IDS o IPS]
+              h4 IDS o IPS
               ul.lista-ul--color.mb-0.mcus-1
                 li.d-flex
                   i.fas.fa-lock-cus
@@ -147,7 +147,7 @@
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
-              h4 #[i EDR]
+              h4 EDR
               ul.lista-ul--color.mb-0.mcus-1
                 li.d-flex
                   i.fas.fa-lock-cus
@@ -163,7 +163,7 @@
           
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
-              h4 #[i SIEM]
+              h4 SIEM
               ul.lista-ul--color.mb-0.mcus-1
                 li.d-flex
                   i.fas.fa-lock-cus
@@ -179,7 +179,7 @@
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7
-              h4 #[i SOAR]
+              h4 SOAR
               ul.lista-ul--color.mb-0.mcus-1
                 li.d-flex
                   i.fas.fa-lock-cus

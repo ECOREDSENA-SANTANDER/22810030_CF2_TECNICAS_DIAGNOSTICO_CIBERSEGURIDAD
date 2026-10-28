@@ -37,17 +37,17 @@
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/3.svg')
         .col-sm-12.col-lg-7
-          p.mb-4 El internet de las cosas, conocido como #[i IoT] por la expresión inglesa #[i Internet of Things], comprende dispositivos físicos que incorporan capacidades de procesamiento, conectividad y, en muchos casos, recopilación o intercambio de datos. Estos dispositivos interactúan con otros sistemas para apoyar actividades de monitoreo, automatización o control.
+          p.mb-4 El internet de las cosas, conocido como IoT por la expresión inglesa #[i Internet of Things], comprende dispositivos físicos que incorporan capacidades de procesamiento, conectividad y, en muchos casos, recopilación o intercambio de datos. Estos dispositivos interactúan con otros sistemas para apoyar actividades de monitoreo, automatización o control.
           .px-4.pcus-1.bg-color-3
             img.wcus-1(src='@/assets/curso/temas/t2/4.svg').mb-3
-            p.mb-3 Un dispositivo #[i IoT] puede incluir sensores, componentes de procesamiento, #[i software] interno, interfaces de administración y mecanismos de conectividad. En algunos casos, también depende de una plataforma en la nube o de una aplicación móvil. Esta arquitectura demuestra que el análisis no debe limitarse al equipo físico. La seguridad involucra el dispositivo, la red, las credenciales, los datos y los servicios asociados.
-            p.mb-0 El National Institute of Standards and Technology publicó NISTIR 8259A como una línea base de capacidades de ciberseguridad para dispositivos #[i IoT]. El documento plantea que las capacidades técnicas de estos dispositivos deben apoyar controles destinados a proteger tanto los equipos como sus datos, sistemas y ecosistemas relacionados (National Institute of Standards and Technology [NIST], 2020a).
+            p.mb-3 Un dispositivo IoT puede incluir sensores, componentes de procesamiento, #[i software] interno, interfaces de administración y mecanismos de conectividad. En algunos casos, también depende de una plataforma en la nube o de una aplicación móvil. Esta arquitectura demuestra que el análisis no debe limitarse al equipo físico. La seguridad involucra el dispositivo, la red, las credenciales, los datos y los servicios asociados.
+            p.mb-0 El National Institute of Standards and Technology publicó NISTIR 8259A como una línea base de capacidades de ciberseguridad para dispositivos IoT. El documento plantea que las capacidades técnicas de estos dispositivos deben apoyar controles destinados a proteger tanto los equipos como sus datos, sistemas y ecosistemas relacionados (National Institute of Standards and Technology [NIST], 2020).
       
       p.mb-5(data-aos='fade-right') Para orientar el diagnóstico de dispositivos conectados, resulta útil revisar las capacidades de ciberseguridad que pueden aportar información sobre configuración, protección, actualización y estado del dispositivo.
       
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Capacidades de ciberseguridad en dispositivos #[i IoT]
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Capacidades de ciberseguridad en dispositivos IoT
 
       AcordionA(tipo="a" clase-tarjeta="tarjeta bg-purple").mb-5(data-aos='fade-right')
         .row.justify-content-center.align-items-center(titulo="Identificación del dispositivo")
@@ -104,12 +104,12 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/11.png')})`}"
         )
         .bloque-texto-g__texto.p-4.br-2.d-flex.flex-column
-          p.mb-3 Los dispositivos #[i IoT] pueden presentar vulnerabilidades relacionadas con credenciales, configuraciones, interfaces, actualizaciones, comunicaciones y tratamiento de datos. Algunas debilidades resultan similares a las observadas en otros sistemas; sin embargo, su gestión puede ser más compleja debido a la diversidad de fabricantes, capacidades limitadas y ciclos de vida prolongados.
+          p.mb-3 Los dispositivos IoT pueden presentar vulnerabilidades relacionadas con credenciales, configuraciones, interfaces, actualizaciones, comunicaciones y tratamiento de datos. Algunas debilidades resultan similares a las observadas en otros sistemas; sin embargo, su gestión puede ser más compleja debido a la diversidad de fabricantes, capacidades limitadas y ciclos de vida prolongados.
           p.mb-0 Las vulnerabilidades frecuentes en dispositivos conectados pueden organizarse según la condición observada, el riesgo asociado, la acción preventiva y la evidencia requerida para validar el ajuste.
       
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Vulnerabilidades frecuentes en dispositivos #[i IoT]
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Vulnerabilidades frecuentes en dispositivos IoT
 
       
       .row.justify-content-center.mb-5(data-aos='fade-right')

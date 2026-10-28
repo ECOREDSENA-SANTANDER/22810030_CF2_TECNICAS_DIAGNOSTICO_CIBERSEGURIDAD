@@ -26,7 +26,7 @@
           img(src='@/assets/curso/temas/t1/2.png')
         .col-sm-12.col-lg-7
           img.wcus-1(src='@/assets/curso/temas/t1/3.svg').mb-3
-          p.mb-3 NIST publicó el #[i Secure Software Development Framework (SSDF)] versión 1.1 como un conjunto de prácticas de alto nivel orientadas a reducir el riesgo de vulnerabilidades de #[i software]. El marco busca integrarse a los ciclos de desarrollo existentes, debido a que muchos modelos tradicionales no abordan la seguridad con suficiente detalle (NIST, 2022).
+          p.mb-3 NIST publicó el #[i Secure Software Development Framework] (SSDF) versión 1.1 como un conjunto de prácticas de alto nivel orientadas a reducir el riesgo de vulnerabilidades de #[i software]. El marco busca integrarse a los ciclos de desarrollo existentes, debido a que muchos modelos tradicionales no abordan la seguridad con suficiente detalle (NIST, 2022).
           p.mb-0 El código seguro corresponde al #[i software] desarrollado mediante prácticas que reducen la posibilidad de errores aprovechables, protegen los datos y facilitan la detección de comportamientos no esperados. Su calidad no depende únicamente de que la aplicación cumpla una función. También debe analizarse cómo procesa entradas, administra sesiones, controla permisos, registra eventos y maneja errores.
       
       .cajon.color-acento-botones.p-4.mb-5(data-aos='fade-right')
@@ -84,7 +84,7 @@
           p.mb-3 El SSDF de NIST agrupa prácticas de desarrollo seguro para facilitar su incorporación a distintos ciclos de vida. Su utilidad pedagógica consiste en demostrar que la seguridad no corresponde a una actividad aislada. Una vulnerabilidad detectada en producción puede tener origen en una decisión temprana: una dependencia no verificada, un requisito incompleto o una configuración predeterminada insegura (NIST, 2022).
           p.mb-0 Entre las buenas prácticas se encuentra la validación de entradas. Una aplicación no debe asumir que todo dato recibido es confiable. También resulta importante controlar permisos, evitar la exposición de secretos en el código fuente, gestionar dependencias, revisar cambios y mantener trazabilidad. Cada práctica responde a una pregunta concreta: ¿qué podría ocurrir si el sistema recibe datos inesperados, si un usuario intenta acceder a una función restringida o si un componente deja de recibir actualizaciones?
 
-      p.mb-0(data-aos='fade-right') OWASP #[i Application Security Verification Standard (ASVS)] versión 5.0 ofrece requisitos verificables para diseñar, desarrollar y evaluar aplicaciones web y servicios modernos. El estándar facilita establecer criterios de seguridad y niveles de rigor según el contexto de la aplicación (OWASP Foundation, 2025a). Su aporte no consiste en reemplazar el análisis, sino en aportar una referencia estructurada.
+      p.mb-0(data-aos='fade-right') OWASP #[i Application Security Verification Standard]  (ASVS) versión 5.0 ofrece requisitos verificables para diseñar, desarrollar y evaluar aplicaciones web y servicios modernos. El estándar facilita establecer criterios de seguridad y niveles de rigor según el contexto de la aplicación (OWASP Foundation, 2025a). Su aporte no consiste en reemplazar el análisis, sino en aportar una referencia estructurada.
 
       Separador
       #t_1_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
@@ -95,7 +95,7 @@
           img(src='@/assets/curso/temas/t1/11.png')
         .col-sm-12.col-lg-7
           p.mb-3 Las aplicaciones web y los sistemas en la nube forman parte de la operación cotidiana de organizaciones educativas, empresas y emprendimientos. Permiten publicar información, recibir solicitudes, almacenar documentos, administrar procesos y ofrecer servicios a usuarios ubicados en distintos lugares. Esta flexibilidad también amplía la superficie de exposición y exige aplicar criterios de seguridad.
-          p.mb-0 La prevención comienza por comprender la arquitectura. Un sitio web no está compuesto únicamente por páginas visibles. Puede incluir servidor, base de datos, formularios, #[i API], sistema de autenticación, cuentas administrativas, componentes de terceros y servicios #[i cloud]. Cada elemento requiere controles y monitoreo.
+          p.mb-0 La prevención comienza por comprender la arquitectura. Un sitio web no está compuesto únicamente por páginas visibles. Puede incluir servidor, base de datos, formularios, API, sistema de autenticación, cuentas administrativas, componentes de terceros y servicios #[i cloud]. Cada elemento requiere controles y monitoreo.
       
       p.mb-5(data-aos='fade-right') Una aplicación web es un sistema al que se accede mediante navegador u otro cliente conectado a una red. Puede cumplir funciones informativas, transaccionales o colaborativas. Un portal institucional publica contenidos; una plataforma de matrícula procesa registros; un sistema de comercio electrónico administra pedidos; y un aula virtual facilita interacción formativa.
 
@@ -248,7 +248,7 @@
                   p.mb-0.text-2 #[b Ejemplo aplicado:] conservar trazabilidad de accesos fallidos y cambios administrativos. 
                 li.d-flex
                   i.fas.fa-lock-cus
-                  p.mb-0.text-2 #[b Evidencia para validar:] conservar trazabilidad de accesos fallidos y cambios administrativos.
+                  p.mb-0.text-2 #[b Evidencia para validar:] registros con fecha, tipo de evento y actor relacionado.
       p.mb-5(data-aos='fade-right') La documentación de hallazgos permite que las acciones preventivas no queden como actividades aisladas. Cuando se conserva evidencia, se facilita la validación posterior y se mejora la toma de decisiones frente a nuevas revisiones de seguridad.
 
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')

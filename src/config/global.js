@@ -177,7 +177,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/22810030_CF2_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -210,7 +210,7 @@ export default {
     {
       termino: '<i>Dark web</i>',
       significado:
-        'capa de internet que suele requerir herramientas específicas y ofrece mayor anonimato. su estudio debe mantener un propósito conceptual, legal y preventivo.',
+        'capa de internet que suele requerir herramientas específicas y ofrece mayor anonimato. Su estudio debe mantener un propósito conceptual, legal y preventivo.',
     },
     {
       termino: '<i>Deep web</i>',
@@ -218,12 +218,12 @@ export default {
         'contenido no indexado por motores de búsqueda convencionales, como plataformas autenticadas, repositorios privados o sistemas internos.',
     },
     {
-      termino: 'Denegación de servicio (<i>DoS</i>)',
+      termino: 'Denegación de servicio (DoS)',
       significado:
         'ataque orientado a degradar o impedir el acceso legítimo a una aplicación, red o servicio tecnológico.',
     },
     {
-      termino: '<i>EDR</i>',
+      termino: 'EDR',
       significado:
         'solución de detección y respuesta orientada a analizar comportamientos y facilitar la revisión en equipos finales.',
     },
@@ -233,7 +233,7 @@ export default {
         'control que permite o restringe comunicaciones según reglas definidas y documentadas.',
     },
     {
-      termino: '<i>IDS</i>',
+      termino: 'IDS',
       significado:
         'sistema que detecta patrones o eventos de red que requieren análisis y genera alertas.',
     },
@@ -243,7 +243,7 @@ export default {
         'situación que afecta o pone en riesgo sistemas, información, servicios o usuarios y requiere tratamiento documentado.',
     },
     {
-      termino: 'Internet de las cosas (<i>IoT</i>)',
+      termino: 'Internet de las cosas (IoT)',
       significado:
         'ecosistema de dispositivos físicos conectados que recopilan, procesan o intercambian datos.',
     },
@@ -302,7 +302,7 @@ export default {
     },
     {
       referencia:
-        'National Institute of Standards and Technology. (2020a). <i>IoT</i> device cybersecurity capability core baseline (NISTIR 8259A). U.S. Department of Commerce.',
+        'National Institute of Standards and Technology. (2020). IoT device cybersecurity capability core baseline (NISTIR 8259A). U.S. Department of Commerce.',
     },
     {
       referencia:
@@ -328,7 +328,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

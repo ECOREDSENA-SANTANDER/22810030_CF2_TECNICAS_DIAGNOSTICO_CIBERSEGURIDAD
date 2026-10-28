@@ -89,7 +89,7 @@
 
           .row.justify-content-center.mb-0.align-items-center
             .col-sm-12.col-lg-7.text-white
-              h4 Denegación de servicio (#[i DoS])
+              h4 Denegación de servicio (DoS)
               ul.lista-ul--color.mb-0.mcus-1
                 li.d-flex
                   i.fas.fa-lock-cus-white
@@ -102,7 +102,7 @@
                   p.mb-0.text-2 #[b Propiedad de seguridad afectada:] disponibilidad.
                 li.d-flex
                   i.fas.fa-lock-cus-white
-                  p.mb-0.text-2 #[b Evidencia que requiere revisión:] consumo de recursos, tráfico, disponibilidad de servicios y registros de eventos.
+                  p.mb-0.text-2 #[b Evidencia que requiere revisión:] consumo de recursos, tráfico, registros del servicio y duración de la interrupción.
             .col-sm-12.col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/6.png')
           
@@ -118,7 +118,7 @@
           .px-4.pcus-1
             p.mb-3.text-white La comprensión de los ataques técnicos debe complementarse con una mirada social y organizacional. El cibercrimen no corresponde únicamente a acciones aisladas realizadas por individuos con conocimientos avanzados. También puede involucrar redes, servicios ilícitos, intermediarios y economías digitales que facilitan la especialización de tareas.
 
-            p.mb-0.text-white INTERPOL señala que el delito digital ha evolucionado desde incidentes aislados hacia una economía clandestina sofisticada que afecta a personas, empresas y organizaciones. Esta transformación exige respuestas coordinadas y capacidad de prevención en diferentes niveles (INTERPOL, 2026).
+            p.mb-0.text-white INTERPOL señala que el delito digital ha evolucionado desde incidentes aislados hacia una economía clandestina sofisticada que afecta a personas, empresas y organizaciones. Esta transformación exige respuestas coordinadas y capacidad de prevención en diferentes niveles (INTERPOL. (s. f.)).
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
           img(src='@/assets/curso/temas/t3/7.png')
       

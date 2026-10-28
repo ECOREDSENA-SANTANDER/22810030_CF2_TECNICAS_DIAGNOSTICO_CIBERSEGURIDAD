@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> verificar la comprensión del código seguro, la protección de aplicaciones web y dispositivos <i>IoT</i>, la taxonomía de ataques, el cibercrimen, las amenazas dirigidas a personas, las infraestructuras críticas, el internet seguro, el monitoreo de red y la mitigación de riesgos.',
+        '<b>Objetivo:</b> verificar la comprensión del código seguro, la protección de aplicaciones web y dispositivos IoT, la taxonomía de ataques, el cibercrimen, las amenazas dirigidas a personas, las infraestructuras críticas, el internet seguro, el monitoreo de red y la mitigación de riesgos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -211,7 +211,7 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Qué describe mejor el internet de las cosas o <i>IoT</i>?',
+          texto: '¿Qué describe mejor el internet de las cosas o IoT?',
           imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
@@ -248,7 +248,7 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué acción preventiva debe aplicarse a un dispositivo <i>IoT</i> que conserva credenciales predeterminadas?',
+            '¿Qué acción preventiva debe aplicarse a un dispositivo IoT que conserva credenciales predeterminadas?',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
@@ -357,7 +357,7 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué propiedad de la seguridad se afecta principalmente en un ataque de denegación de servicio o <i>DoS</i>?',
+            '¿Qué propiedad de la seguridad se afecta principalmente en un ataque de denegación de servicio o DoS?',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
@@ -612,16 +612,16 @@ export default {
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Un sistema <i>SIEM</i>.', esCorrecta: true },
+            { id: 'a', texto: 'Un sistema SIEM.', esCorrecta: true },
             {
               id: 'b',
-              texto: 'Una interfaz <i>API</i> sin mecanismos de monitoreo.',
+              texto: 'Una interfaz API sin mecanismos de monitoreo.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Un sensor <i>IoT</i> utilizado únicamente para medir temperatura.',
+                'Un sensor IoT utilizado únicamente para medir temperatura.',
               esCorrecta: false,
             },
             {
